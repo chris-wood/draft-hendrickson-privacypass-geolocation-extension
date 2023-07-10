@@ -18,8 +18,8 @@ venue:
   group: "Privacy Pass"
   type: "Working Group"
   mail: "privacy-pass@ietf.org"
-  github: "chris-wood/draft-hendrickson-privacypass-token-extensions"
-  latest: "https://chris-wood.github.io/draft-hendrickson-privacypass-token-extensions/draft-hendrickson-privacypass-token-extensions.html"
+  github: "chris-wood/draft-hendrickson-privacypass-geolocation-extension"
+  latest: "https://chris-wood.github.io/draft-hendrickson-privacypass-geolocation-extension/draft-hendrickson-privacypass-expiration-extension.html"
 
 author:
  -
