@@ -119,3 +119,7 @@ This document registers the following entry into the "Privacy Pass PrivateToken 
 
 --- back
 
+# Acknowledgments
+{:numbered="false"}
+
+This document received input and feedback from Jim Laskey.
