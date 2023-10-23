@@ -3,7 +3,7 @@ title: "Privacy Pass Geolocation Hint Extension"
 abbrev: "Privacy Pass Geolocation Hint Extension"
 category: info
 
-docname: draft-hendrickson-privacypass-geolocation-extension-latest
+docname: draft-hendrickson-privacypass-geo-extension-latest
 submissiontype: IETF
 number:
 date:
