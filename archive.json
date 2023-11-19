@@ -1,0 +1,143 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2023-11-19T00:19:01.375703+00:00",
+  "repo": "chris-wood/draft-hendrickson-privacypass-geolocation-extension",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOJ56J6M5WcnjS",
+      "title": "Ensure geo_hints are always uppercase",
+      "url": "https://github.com/chris-wood/draft-hendrickson-privacypass-geolocation-extension/pull/1",
+      "state": "MERGED",
+      "author": "smhendrickson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "To prevent excess entropy being added. For example 'Alabaster' and 'ALABASTER' would parse the same for 8805, but could be used to identify smaller groups of users than necessary if we just support ALABASTER",
+      "createdAt": "2023-07-26T14:07:07Z",
+      "updatedAt": "2023-07-26T16:33:53Z",
+      "baseRepository": "chris-wood/draft-hendrickson-privacypass-geolocation-extension",
+      "baseRefName": "main",
+      "baseRefOid": "806e7cded41a7f56e2d3d3b7db141d4cb97e57a7",
+      "headRepository": "chris-wood/draft-hendrickson-privacypass-geolocation-extension",
+      "headRefName": "smhendrickson-patch-1",
+      "headRefOid": "9369cb3ec35730d8895c02ee8b6e3114a80f8004",
+      "closedAt": "2023-07-26T16:33:53Z",
+      "mergedAt": "2023-07-26T16:33:53Z",
+      "mergedBy": "chris-wood",
+      "mergeCommit": {
+        "oid": "46007cc3e38f4959a2e4a64e8be3ced8c521d4b3"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJ56J6M5cRx2M",
+          "commit": {
+            "abbreviatedOid": "6c40a14"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-07-26T16:33:38Z",
+          "updatedAt": "2023-07-26T16:33:38Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\n  contain a Postal Code. All values MUST be uppercase to prevent adding extra entropy\r\n```",
+              "createdAt": "2023-07-26T16:33:38Z",
+              "updatedAt": "2023-07-26T16:33:38Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJ56J6M5cRx6f",
+          "commit": {
+            "abbreviatedOid": "9369cb3"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-07-26T16:33:46Z",
+          "updatedAt": "2023-07-26T16:33:46Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOJ56J6M5di4_X",
+      "title": "Rename document to respect 50char limit",
+      "url": "https://github.com/chris-wood/draft-hendrickson-privacypass-geolocation-extension/pull/2",
+      "state": "OPEN",
+      "author": "smhendrickson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "The `Publish New Draft Version` action fails currently. I think I did something hacky to get the first release out.\n\nhttps://github.com/chris-wood/draft-hendrickson-privacypass-geolocation-extension/actions/runs/6513230603/job/17692429980",
+      "createdAt": "2023-10-23T15:27:46Z",
+      "updatedAt": "2023-10-23T15:28:04Z",
+      "baseRepository": "chris-wood/draft-hendrickson-privacypass-geolocation-extension",
+      "baseRefName": "main",
+      "baseRefOid": "46007cc3e38f4959a2e4a64e8be3ced8c521d4b3",
+      "headRepository": "chris-wood/draft-hendrickson-privacypass-geolocation-extension",
+      "headRefName": "smh-rename",
+      "headRefOid": "545eb3e62a4b61de031adc58e5a6df6b97a7ea60",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
