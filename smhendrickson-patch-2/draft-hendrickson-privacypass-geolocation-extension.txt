@@ -5,12 +5,12 @@
 Privacy Pass                                              S. Hendrickson
 Internet-Draft                                                    Google
 Intended status: Informational                                C. A. Wood
-Expires: 25 April 2024                                  Cloudflare, Inc.
-                                                         23 October 2023
+Expires: 22 June 2024                                   Cloudflare, Inc.
+                                                        20 December 2023
 
 
                 Privacy Pass Geolocation Hint Extension
-           draft-hendrickson-privacypass-geo-extension-latest
+       draft-hendrickson-privacypass-geolocation-extension-latest
 
 Abstract
 
@@ -25,8 +25,8 @@ About This Document
    wood.github.io/draft-hendrickson-privacypass-geolocation-extension/
    draft-hendrickson-privacypass-expiration-extension.html.  Status
    information for this document may be found at
-   https://datatracker.ietf.org/doc/draft-hendrickson-privacypass-geo-
-   extension/.
+   https://datatracker.ietf.org/doc/draft-hendrickson-privacypass-
+   geolocation-extension/.
 
    Discussion of this document takes place on the Privacy Pass Working
    Group mailing list (mailto:privacy-pass@ietf.org), which is archived
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 April 2024.
+   This Internet-Draft will expire on 22 June 2024.
 
 Copyright Notice
 
@@ -113,14 +113,13 @@ Table of Contents
    changed recently, or a client is using a VPN or proxy that may not be
    commonly recognized by servers.
 
-   The value of this extension is an GeoHintTimestamp, defined as
-   follows.
+   The value of this extension is a GeoHint, defined as follows.
 
    struct {
       opaque geo_hint<1..2^16-1>;
    } GeoHint;
 
-   The GeoHintTimestamp fields are defined as follows:
+   The GeoHint fields are defined as follows:
 
    *  "geo_hint" is a string formatted as defined in Section 2.1.1 of
       [GEOFEED].  It contains a comma-separated list of Alpha2code,
@@ -177,16 +176,16 @@ Table of Contents
               Hendrickson, S. and C. A. Wood, "The PrivateToken HTTP
               Authentication Scheme Extensions Parameter", Work in
               Progress, Internet-Draft, draft-wood-privacypass-auth-
-              scheme-extensions-00, 10 July 2023,
+              scheme-extensions-01, 25 November 2023,
               <https://datatracker.ietf.org/doc/html/draft-wood-
-              privacypass-auth-scheme-extensions-00>.
+              privacypass-auth-scheme-extensions-01>.
 
    [AUTH-SCHEME]
               Pauly, T., Valdez, S., and C. A. Wood, "The Privacy Pass
               HTTP Authentication Scheme", Work in Progress, Internet-
-              Draft, draft-ietf-privacypass-auth-scheme-14, 25 September
+              Draft, draft-ietf-privacypass-auth-scheme-15, 23 October
               2023, <https://datatracker.ietf.org/doc/html/draft-ietf-
-              privacypass-auth-scheme-14>.
+              privacypass-auth-scheme-15>.
 
    [BASIC-ISSUANCE]
               Celi, S., Davidson, A., Valdez, S., and C. A. Wood,
