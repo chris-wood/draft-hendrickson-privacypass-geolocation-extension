@@ -86,7 +86,7 @@ The GeoHintTimestamp fields are defined as follows:
 - "geo_hint" is a string formatted as defined in {{Section 2.1.1 of !GEOFEED=RFC8805}}. It
   contains a comma-separated list of Alpha2code, Region, and City. The value SHOULD NOT
   contain a Postal Code. All values MUST be uppercase to prevent adding extra entropy
-  through mixed casing.
+  through mixed casing. Values should be valid UTF-8 {{!RFC3629}}.
 
 As an example, a GeoHint structure corresponding to the "192.0.2.5,US,US-AL,Alabaster" entry
 would be:
