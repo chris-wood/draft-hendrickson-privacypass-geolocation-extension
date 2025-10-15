@@ -73,7 +73,7 @@ addresses of clients. This can be particularly useful for cases where IP geoloca
 mappings have changed recently, or a client is using a VPN or proxy that may not be
 commonly recognized by servers.
 
-The value of this extension is an GeoHintTimestamp, defined as follows.
+The value of this extension is a GeoHint, defined as follows.
 
 ~~~
 struct {
@@ -81,7 +81,7 @@ struct {
 } GeoHint;
 ~~~
 
-The GeoHintTimestamp fields are defined as follows:
+The GeoHint fields are defined as follows:
 
 - "geo_hint" is a string formatted as defined in {{Section 2.1.1 of !GEOFEED=RFC8805}}. It
   contains a comma-separated list of Alpha2code, Region, and City. The value SHOULD NOT
