@@ -5,8 +5,8 @@
 Privacy Pass                                              S. Hendrickson
 Internet-Draft                                                    Google
 Intended status: Informational                                C. A. Wood
-Expires: 27 January 2024                                Cloudflare, Inc.
-                                                            26 July 2023
+Expires: 1 April 2027                                   Cloudflare, Inc.
+                                                       28 September 2026
 
 
                 Privacy Pass Geolocation Hint Extension
@@ -52,11 +52,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 27 January 2024.
+   This Internet-Draft will expire on 1 April 2027.
 
 Copyright Notice
 
-   Copyright (c) 2023 IETF Trust and the persons identified as the
+   Copyright (c) 2026 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -169,31 +169,31 @@ Table of Contents
    [ARCHITECTURE]
               Davidson, A., Iyengar, J., and C. A. Wood, "The Privacy
               Pass Architecture", Work in Progress, Internet-Draft,
-              draft-ietf-privacypass-architecture-13, 15 June 2023,
+              draft-ietf-privacypass-architecture-16, 25 September 2023,
               <https://datatracker.ietf.org/doc/html/draft-ietf-
-              privacypass-architecture-13>.
+              privacypass-architecture-16>.
 
    [AUTH-EXTENSIONS]
               Hendrickson, S. and C. A. Wood, "The PrivateToken HTTP
               Authentication Scheme Extensions Parameter", Work in
               Progress, Internet-Draft, draft-wood-privacypass-auth-
-              scheme-extensions-00, 10 July 2023,
+              scheme-extensions-02, 29 March 2024,
               <https://datatracker.ietf.org/doc/html/draft-wood-
-              privacypass-auth-scheme-extensions-00>.
+              privacypass-auth-scheme-extensions-02>.
 
    [AUTH-SCHEME]
               Pauly, T., Valdez, S., and C. A. Wood, "The Privacy Pass
               HTTP Authentication Scheme", Work in Progress, Internet-
-              Draft, draft-ietf-privacypass-auth-scheme-11, 23 June
+              Draft, draft-ietf-privacypass-auth-scheme-15, 23 October
               2023, <https://datatracker.ietf.org/doc/html/draft-ietf-
-              privacypass-auth-scheme-11>.
+              privacypass-auth-scheme-15>.
 
    [BASIC-ISSUANCE]
               Celi, S., Davidson, A., Valdez, S., and C. A. Wood,
               "Privacy Pass Issuance Protocol", Work in Progress,
-              Internet-Draft, draft-ietf-privacypass-protocol-11, 26
-              June 2023, <https://datatracker.ietf.org/doc/html/draft-
-              ietf-privacypass-protocol-11>.
+              Internet-Draft, draft-ietf-privacypass-protocol-16, 3
+              October 2023, <https://datatracker.ietf.org/doc/html/
+              draft-ietf-privacypass-protocol-16>.
 
    [EXTENDED-ISSUANCE]
               "*** BROKEN REFERENCE ***".
